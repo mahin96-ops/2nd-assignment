@@ -1,0 +1,159 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
+ 
+ #by{
+     font-family: "Inter", sans-serif;
+ }
+
+ #small{
+    font-size: 11px;
+    font-weight: 200;
+    opacity: 0.5;
+ }
+
+ hr{
+    opacity: 0.2;
+ }
+
+.wave{
+     background: linear-gradient(180deg, #7c4dff, #ff4081, #ffeb3b);
+     background-clip: text;
+     color: transparent;
+}
+
+.btn{
+    background: linear-gradient(200deg, #7c4dff, #ff4081, #ffeb3b); 
+    font-size: 16px;
+    padding: 2px 10px !important;
+    border-radius: 20px;
+} 
+
+#wave{
+    height: 700px ;
+    
+    background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#circle{
+    min-width: 26%;
+    height: 60%;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: r;
+    background-position: center;
+}
+
+#two{
+    font-size: 12px;
+}
+
+#matha-gorom{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+#mic{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 130px;
+    top: 150px;
+    
+}
+
+.circle{
+    width: 100%;
+}
+
+.new{
+    background-color: #00ff88;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top:60px;
+    left: 240px;
+    box-shadow: 0px 2px 5px #00ff88; 
+}
+
+.two-icons{
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.green{
+    border: 1px solid #00ff88;
+    border-radius: 20px;
+    padding: 1px 10px;
+
+}
+
+#five-box{
+   display: grid;
+   gap: 20px;
+   
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3 ,140px);
+}
+
+#box{
+    
+   border-radius: 30px;
+   padding: 15px 25px;
+   background-color: #39106f;
+ }
+
+ #middle{
+    border-radius: 30px;
+   padding: 45px 25px;
+   background-color: #39106f;
+ }
+
+.headphone{
+    
+    grid-column: span 1;
+    grid-row: span 2;
+ }
+
+.mobile, .global{
+   grid-column: span 2;
+ }
+
+.exclusive{
+    grid-column: span 2;
+}
+
+.rich{
+    grid-column: span;
+}
+
+#embeded-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#embeded{
+   background-color: #39106f;
+   border-radius: 10px;
+   
+}
+
+.video{
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   width: 100%;
+}
+
+@import "tailwindcss"
