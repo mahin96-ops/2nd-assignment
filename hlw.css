@@ -146,14 +146,19 @@
 
 #embeded{
    background-color: #39106f;
-   border-radius: 10px;
+   border-radius: 20px;
    
 }
 
 .video{
-   border-top-left-radius: 10px;
-   border-top-right-radius:10px ;
+   border-top-left-radius: 20px;
+   border-top-right-radius:20px ;
    width: 100%;
+}
+
+#alex{
+   background-color: #39106f;
+   border-radius: 20px;
 }
 
 @import "tailwindcss"
