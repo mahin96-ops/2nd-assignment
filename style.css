@@ -29,10 +29,26 @@
     border-radius: 20px;
 } 
 
+#menu-icon{
+    display: none;
+}
+
 #wave{
     height: 700px ;
     
     background-image: url(assets/hero-bg.png);
+    max-width: 100% ;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+wave-phone{
+    height: 700px ;
+    
+    background-image: url(assets/hero-bg.png);
+    max-width: 100% ;   
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -160,5 +176,139 @@
    background-color: #39106f;
    border-radius: 20px;
 }
+
+#sesh{
+    background-image: url(assets/footer-bg.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#capa{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+ .last-one{
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+#last-p{
+    font-size: 13px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+
+/*responsive design */
+
+
+@media screen and (max-width:576px){
+    .sub-button{
+        display:none;
+    }
+
+    #menu-icon{
+        display:block;
+        padding-top: 10px;
+    }
+
+    #capa{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+
+    #five-box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 ,200px);
+    }
+
+   .headphone,
+   .mobile,
+   .global,
+   .exclusive,
+   .rich{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    #embeded-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    #alex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .last{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maf-chai{
+        width:200px ;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        font-size: larger;
+       
+    }
+
+    .for-margin{
+        margin:5px;
+    }
+
+    #sesh{
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    #wave{
+        
+    }
+      
+    
+
+    #matha-gorom{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    #mic{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 60px;
+    top: 90px;
+    }
+
+    .new{
+    background-color: #00ff88;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 50px;
+    position: absolute;
+    top:70px;
+    left: 150px;
+    box-shadow: 0px 2px 5px #00ff88; 
+    }
+
+}
+
 
 @import "tailwindcss"

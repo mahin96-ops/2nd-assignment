@@ -6,17 +6,15 @@
     <title> TECHWAVE</title>
 
    <!--CSS LINK-->
-   <link rel="stylesheet" href="hlw.css">
+   <link rel="stylesheet" href="style.css">
 
    <!--Tailwind cdn-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
 
    <!--font awesome cdn--> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+ 
 
-
-
-">
 </head>
 
 <body id="by" class="bg-[#1A0B2E]" >
@@ -25,20 +23,23 @@
     <!--nav bar-->
       <nav class="text-white flex    justify-between border border-[#412567] px-20 pt-2 ">
          <h3 class="text-[25px] font-bold ">Tech<span class="wave">Wave</span></h3>
-        <div class="text-[12px] pt-2">
+        <div class="text-[12px] pt-2 sub-button">
                 <a class="mx-5"  href=" ">About</a>
                 <a class="mx-5" href=" ">Episodes</a>
                 <a class="mx-5" href=" ">Host</a>
 
              </div>
-                  <button class="btn font-semibold mb-2 ">Subscribe →</button>
+                  <button class="btn font-semibold mb-2 sub-button">Subscribe →</button>
+                  <div id="menu-icon"><img src="assets/hamburger-menu.png" alt=""></div>
         </nav>
 
 <!--banner-->
 
          <section id="wave" class=" flex flex-col   items-center justify-center relative"  >
 
-           <div id="matha-gorom" class="  relative  ">
+            <div id="wave-phone" class=" flex flex-col   items-center justify-center relative">
+
+             <div id="matha-gorom" class="  relative  ">
               <img class="circle" src="assets/hero-circle.png" alt="">
 
              <div id="mic">
@@ -63,6 +64,10 @@
               </div>
             </div>
 
+
+            </div>
+
+           
         </section>
 
        </header>  
@@ -81,7 +86,7 @@
       </div>
 
 
-      <div class="text-white flex justify-between items-center py-7 ">
+      <div id="capa" class=" text-white  py-7 ">
 
           <div class="text-center"> <h1 class="text-[25px] font-bold text-[#00ff88]">150K+</h1> <p id="small">MONTHLY LISTENERS</p></div>
 
@@ -211,15 +216,15 @@
    </div>
 
 
-  <section id="alex" class="flex  text-white mx-20">
+  <section id="alex" class="flex  text-white mx-20 ">
 
     <img class="p-4 w-40 h-40" src="assets/host.png" alt="">
 
-    <div class="p-5">
+    <div class="p-5  ">
       <h1 class="text-[20px]
       font-semibold ">Alex Joseph</h1>
       <p id="small">Tech entrepreneur , productivity expert , and lifelong learner , alex has been in the tech industry for over 10 years,working with sturtups and fortune 500 companies , through Techwave , alex shares insights from industry leaders and practicial advice for anyone looking to grow in tech.</p>
-      <div class="flex pt-1 ">
+      <div class="flex pt-1 last ">
         <div class="border p-2 rounded-2xl m-0.5"> <img src="assets/linkedin.png" alt=""></div>
 
         <div class="border p-[7px] rounded-[100%] m-0.5"><img class="" src="assets/x.png" alt=""></div>
@@ -231,6 +236,29 @@
     </div>
 
   </section>
+ 
+  <!--footer-->
+  <footer id="sesh" class="flex items-center justify-center text-white mt-15 h-50">
+
+    <div>
+      <h1 class="text-[40px] font-extrabold text-center">Tech<span class="wave">Wave</span></h1>
+
+      <div class="w-90 flex justify-between items-center maf-chai my-5">
+
+        <div class="flex for-margin "><img class="last-one " src="assets/spotify.png" alt=""><p id="last-p">Spotify</p></div>
+
+        <div class="flex for-margin  "><img class=" last-one"  src="assets/apple-podcast.png" alt=""><p id="last-p" >Apple Podcast</p></div>
+
+        <div class="flex for-margin "><img class=" last-one"   src="assets/youtube-podcast.png" alt=""><p id="last-p">YouTube</p></div>
+
+        <div class="flex  for-margin "><img  class=" last-one"  src="assets/twitter.png" alt=""><p id="last-p">Twitter</p></div>
+
+      </div>
+      <p id="small" class="text-center py-4">&copy; 2026 TechWave podcast, All rights reserved</p>
+      
+    </div>
+
+  </footer>
 
 </body>
 </html>
