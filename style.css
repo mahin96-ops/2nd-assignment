@@ -34,10 +34,11 @@
 }
 
 #wave{
-    height: 700px ;
+    
     
     background-image: url(assets/hero-bg.png);
-    max-width: 100% ;   
+    width: 100% ;   
+    aspect-ratio: 16 / 9;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -179,7 +180,9 @@ wave-phone{
 
 #sesh{
     background-image: url(assets/footer-bg.png);
-     background-size: cover;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -271,6 +274,7 @@ wave-phone{
         justify-content: center;
         padding-top: 25px;
         text-align: center;
+        margin-bottom: 0px ;
     }
 
     #wave{
